@@ -8,7 +8,7 @@ const Cart = ({clearCart,getCartTotal,removeItem,changeQuantity,cart,setViewItem
         <div className='cart_top'>
             <p>Your Cart</p>
             <p>{cart.length} items</p>
-            {cart.length === 0 ? '': <p onClick={()=>setViewItems(true)}>view items</p>}
+            {cart.length === 0 ? '': <p className='view_items' onClick={()=>setViewItems(true)}>view items</p>}
         </div>
         <hr />
         {cart.length === 0 ? <p style={{'textAlign':'center'}}>Cart Empty!</p>:
