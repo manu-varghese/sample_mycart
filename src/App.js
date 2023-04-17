@@ -1,5 +1,4 @@
 import axios from 'axios';
-import './App.css';
 import Navbar from './component/Navbar/Navbar';
 import Products from './component/Product/Products';
 import { useEffect, useState } from 'react';
